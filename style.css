@@ -7,12 +7,21 @@ body, h1, h2, p, ul, li {
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
+    align-items: center;
+    
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #C70039;
+    color: #313866;
     padding: 10px 0;
+}
+
+.imagem__edicao { 
+    align-items: center;
+    width: 11%;
+    size: 12%;
+
 }
 
 nav ul {
@@ -26,21 +35,21 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
 .hero {
     text-align: center;
     padding: 100px 0;
-    background-color: #f5f5f5;
+    background-color: #C70039;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
+    background-color: #F8DE22;
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -49,7 +58,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
-    background-color: #fff;
+    background-color: #900C3F;
 }
 
 .feature {
@@ -59,6 +68,6 @@ nav a {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #C70039;
+    color: #000000;
 }
