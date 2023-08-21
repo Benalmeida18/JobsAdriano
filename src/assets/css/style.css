@@ -17,10 +17,14 @@ header {
     padding: 10px 0;
 }
 
-.imagem_edicao { 
+.div_logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #1a1919;
+}
+
+.imagem_edicao { 
     width: 10%;
 }
 
