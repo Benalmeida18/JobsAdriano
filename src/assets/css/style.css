@@ -6,6 +6,7 @@ body, h1, h2, p, ul, li {
 
 /* Estilos gerais */
 body {
+    
     font-family: Arial, sans-serif;
     align-items: center;
     gap: 0%;
@@ -15,21 +16,14 @@ body {
 header {
     background-color: #000000;
     color: #313866;
- padding-inline-end: 0%;
+    box-sizing: content-box;   
 }
 
 .section-imagem { 
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.imagem-logo {
-    width: 10%;
-}
-
-.imagem-logo2 {
-    width: 10%;
+    align-items: end;
+    width: 50%;
 }
 
 nav ul {
