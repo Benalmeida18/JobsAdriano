@@ -19,6 +19,7 @@ header {
     box-sizing: content-box;   
 }
 
+
 .imagem__edicao { 
     display: flex;
     width: 50%;
