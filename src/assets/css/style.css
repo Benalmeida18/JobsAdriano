@@ -6,22 +6,22 @@ body, h1, h2, p, ul, li {
 
 /* Estilos gerais */
 body {
+    
     font-family: Arial, sans-serif;
     align-items: center;
+    gap: 0%;
     
 }
 
 header {
-    background-color: #C70039;
+    background-color: #000000;
     color: #313866;
-    padding: 10px 0;
+    box-sizing: content-box;   
 }
 
-.imagem_edicao { 
+.imagem__edicao { 
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 10%;
+    width: 50%;
 }
 
 nav ul {
@@ -35,39 +35,40 @@ nav li {
 }
 
 nav a {
-    color: #000000;
+    color: #faf6f6;
     text-decoration: none;
 }
 
-.hero {
+.apresentacao__conteudo {
     text-align: center;
     padding: 100px 0;
-    background-color: #C70039;
+    background-color: #F94C10;
+
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #F8DE22;
+    background-color: #FFB84C;
     color: #000000;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
-.features {
+.apresentacao__recursos{
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
-    background-color: #900C3F;
+    background-color: #e40343;
 }
 
-.feature {
+.apresentacao__recursos {
     text-align: center;
 }
 
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color: #C70039;
-    color: #000000;
+    background-color:#000000;
+    color: #faf6f6;
 }
