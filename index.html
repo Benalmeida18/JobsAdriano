@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS: Style.css-->
     <link rel="stylesheet" href="src/assets/css/style.css">
+    <!--CSS: Conometro.css-->
+    <link rel="stylesheet" href="/src/assets/css/contador.css">
+     
+    <script src="/src/assets/js/contador.js" defer></script>
+
     <title>Chute Estratégico</title>
 </head>
 <body>
+    <!--Conometro 1-->
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="text" id="days">0</p>
+            <span>Dias</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="text" id="hours">0</p>
+            <span>Horas</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="text" id="mins">0</p>
+            <span>Minutos</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="text" id="seconds">0</p>
+            <span>Segundos</span>
+        </div>
+    </div>
+
     <header class="cabecalho">
+        
+        <!--Menu-->
         <nav>
             <ul>
                 <li><a href="#">Início</a></li>
@@ -15,32 +43,25 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-<<<<<<< HEAD
+        
+        <!--Logo-->
+        <section class="div-imagem">
+                <img class="imagem_edicao" src="./src/assets/img/logofinal.png" alt="logotipo">
+        </section>
 
-        <section class="imagem">
-            <div >
-                <img class="imagem__edicao" src="./src/assets/img/logofinal.png" alt="logotipo">
-            </div>
+        <section class="apresentacao__conteudo">
+            <!--Video-->
+            <video class="video_edicao" controls width="640" height="360" src="">
+                <source src="./src/assets/videoteste.webm" type=video/webm>    
+            </video>
+
+            <h1>Seja bem-vindo à nossa Landing Page</h1>
+            <p>Uma breve descrição do que oferecemos.</p>
+            <a href="#" class="cta-button">Saiba mais</a>
         </section>
     </header>
 
-    <section class="apresentacao__conteudo">
-=======
-
-        <section class="section-imagem">
-            <div >
-                <img class="imagem-logo" src="./src/assets/img/logofinal.png" alt="logotipo">
-            </div>
-        </section>
-    </header>
-
-    <section class="hero">
->>>>>>> 0f1456534327f44f91d99396949aa02a32940ef6
-        <h1>Seja bem-vindo ao Chute Estratégico</h1>
-        <p>Uma breve descrição do que oferecemos.</p>
-        <a href="#" class="cta-button">Saiba mais</a>
-    </section>
-
+    <!--Recursos-->
     <section class="apresentacao__recursos">
         <div class="apresentacao__recursos__1">
             <h2>Recurso 1</h2>
