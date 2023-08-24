@@ -1,0 +1,24 @@
+@media (max-width:950px) {
+    /**/
+    /*Contador*/
+    .text{
+        font-weight: bold;
+        font-size: 1.4rem;
+        line-height: 1;
+        margin: 1rem 2rem;
+    }
+
+    .countdown-el span {
+        font-size: 1rem;
+    }
+
+    /*Video*/
+    video{
+        height: 300px;
+        width: 300px;
+    }
+
+    .imagem_edicao { 
+        width:100%;
+    }
+}
