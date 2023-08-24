@@ -15,11 +15,12 @@ body {
 
 header {
     background-color: #000000;
+
     color: #bfc2d6;
     box-sizing: content-box;  
     padding-top: 20px; 
-}
 
+}
 .div-imagem{
     display: flex;
     flex-direction: column;
@@ -77,4 +78,8 @@ footer {
     padding: 20px 0;
     background-color:#000000;
     color: #faf6f6;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 07639399bedf7a915f409367b908885985cdc834
