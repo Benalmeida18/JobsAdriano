@@ -10,25 +10,22 @@ body {
     font-family: Arial, sans-serif;
     align-items: center;
     gap: 0%;
-    
 }
 
 header {
     background-color: #000000;
-    color: #000000;
-    box-sizing: content-box;   
+    color: #ffffff;
+    box-sizing: content-box;  
+    padding-top: 20px; 
 }
-
-.video__imagem {
-    align-items: baseline;
+.div-imagem{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-
-.imagem__edicao { 
-    display: flex;
-    width: 50%;
+.imagem_edicao { 
+    width: 10%;
 }
 
 nav ul {
@@ -49,7 +46,7 @@ nav a {
 .apresentacao__conteudo {
     text-align: center;
     padding: 100px 0;
-    background-color: #F94C10;
+    background-color: #ff5703;
 
 }
 
@@ -66,7 +63,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     padding: 50px 0;
-    background-color: #e40343;
+    background-color: #a52e06;
 }
 
 .apresentacao__recursos {
@@ -78,4 +75,15 @@ footer {
     padding: 20px 0;
     background-color:#000000;
     color: #faf6f6;
+}
+
+.texto-gatilho{
+    text-align: center;
+}
+
+.card-comprar{
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
 }
