@@ -15,9 +15,16 @@ body {
 
 header {
     background-color: #000000;
-    color: #313866;
+    color: #000000;
     box-sizing: content-box;   
 }
+
+.video__imagem {
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .imagem__edicao { 
     display: flex;
@@ -69,6 +76,6 @@ nav a {
 footer {
     text-align: center;
     padding: 20px 0;
-    background-color:#8d4242;
+    background-color:#000000;
     color: #faf6f6;
 }
