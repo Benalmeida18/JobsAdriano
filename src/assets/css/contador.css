@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 .countdown-container {
+    background-color: #ff5703;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 10px;
 }
+
 
 .text{
     font-weight: bold;
@@ -21,3 +23,10 @@
 .countdown-el span {
     font-size: 1.1rem;
 }
+
+.texto-gatilho{
+    text-align: center;
+    background-color: #000000;
+    color: #faf6f6;
+}
+
