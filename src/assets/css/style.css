@@ -50,15 +50,6 @@ nav a {
 
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #FFB84C;
-    color: #000000;
-    text-decoration: none;
-    border-radius: 5px; 
-}
-
 .apresentacao__recursos{
     display: flex;
     justify-content: space-around;
@@ -81,9 +72,37 @@ footer {
     text-align: center;
 }
 
+/* Card de pagamento */
+
+.div-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+
 .card-comprar{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     border-radius: 10px;
     background-color: white;
-    width: 20%;
+    padding-top: 5%;
+    height: 1%;
+    align-items: center;
+}
+
+.img-bandeira-cartao {
+    width: 80%;
+}
+
+.cta-button {
+    display: flex;
+    text-align: center;
+    padding: 10px 100px;
+    background-color: #FFB84C;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-weight: bold;
 }
