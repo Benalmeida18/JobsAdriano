@@ -8,6 +8,7 @@
         margin: 1rem 2rem;
     }
 
+
     .countdown-el span {
         font-size: 1rem;
     }
@@ -21,4 +22,10 @@
     .imagem_edicao { 
         width:100%;
     }
-}
+
+    /*Card*/
+    .card-comprar{
+        width: 90%;
+    }
+} 
+
