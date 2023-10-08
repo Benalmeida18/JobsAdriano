@@ -4,7 +4,7 @@ const hoursEl = document.getElementById('hours')
 const minsEl = document.getElementById('mins')
 const secondsEl = document.getElementById('seconds')
 
-const newYears = "15 Sept 2023"
+const newYears = "30 Sept 2023"
 //Tabela das aberviaturas dos meses em inglês abaixo:
 // Jan, Feb, Mar, Apr, May, June, July, Aug, Sept, Oct, Nov, Dec
 
